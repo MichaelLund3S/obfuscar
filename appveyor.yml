@@ -6,3 +6,5 @@ build_script:
 - dist.pack.bat
 test_script:
 - test.bat
+artifacts:
+- path: '**\Release\*.nupkg'
