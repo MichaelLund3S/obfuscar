@@ -362,6 +362,7 @@ namespace Obfuscar
 
             using (TextWriter file = File.CreateText(logPath))
                 SaveMapping(file);
+            LogOutput(logPath + " written");
         }
 
         /// <summary>
